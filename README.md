@@ -1,5 +1,20 @@
-# Synalogik 
+# Java Text API
 
+# Content
+
+- [Challenge Text](##Programming Test)
+
+**Aim**: Create an `API` in `Java` that can do the following:
+    * read a plain `.txt` file
+        * allow the review of the following stats:
+        - total number of words
+        - average word length
+        - most frequently occurring word length
+        - list of the number of words and each length<sup>1</sup>
+        * Create `unit tests` for the code
+        * Write the project with **Maven**
+
+---
 
 ## Programming Test
 
@@ -32,3 +47,21 @@ The most frequently occurring word length is 2, for word lengths of 4 & 5
 > advice.  _Use of latest features of Java encouraged_.  We can accept a github
 > repository as a response.
 
+
+---
+
+## Footnotes
+
+1:
+```
+...
+Average word length = 4.556
+Number of words of length 1 is 1
+Number of words of length 2 is 1
+Number of words of length 3 is 1
+Number of words of length 4 is 2
+Number of words of length 5 is 2
+Number of words of length 7 is 1
+Number of words of length 10 is 1
+...
+```
