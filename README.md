@@ -18,7 +18,7 @@
 
 ## Programming Test
 
-Please write in Java an API to read the contents of a plain text file and enable the display of the total number of words, the average word length, the most frequently occurring word length and a list of the number of words of each length.
+Please write in _Java_ an _API_ to read the contents of a plain text file and enable the display of the total number of words, the average word length, the most frequently occurring word length and a list of the number of words of each length.
 Submit your code along with unit tests and maven POM file, in a zip file via email along with instructions for its installation and use along with any assumptions you have made about what defines a word (using as a basis the rules that can be deduced from the example below)
 For example given a file that contains the following text:
 
