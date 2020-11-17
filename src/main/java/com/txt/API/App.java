@@ -1,4 +1,4 @@
-package java-txt-api;
+package com.txt.API;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package java-txt-api;
+package com.txt.API.test;
 
 import static org.junit.Assert.assertTrue;
 
