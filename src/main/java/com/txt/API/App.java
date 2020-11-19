@@ -5,8 +5,8 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
- * the `scanner` class breaks input down and read's it using a delimiter patter
- * This is really useful given the size of the input is large.
+ * the `scanner` class breaks input down and read's it using a delimiter pattern
+ * This is really useful given the size of the input is so large.
  */
 public class App 
 {
@@ -20,8 +20,9 @@ public class App
             e.printStackTrace();
         }
 
-        while (sc.hasNextLine()){
-            System.out.println(sc.nextLine());
+        sc.useDelimiter(" ");
+        while (sc.hasNext()){
+            System.out.println(sc.next());
         }
     }
 }
